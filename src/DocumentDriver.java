@@ -1,4 +1,4 @@
-package csce247.assignments.command;
+
 
 import java.util.Scanner;
 
