@@ -8,6 +8,6 @@ public class LoadCommand implements Command {
 	}
 	
 	public void execute() {
-		System.out.println("Document " + doc.name() + " is loading into view.");
+		doc.load();
 	}
 }

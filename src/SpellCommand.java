@@ -7,7 +7,7 @@ public class SpellCommand implements Command {
 	}
 	
 	public void execute() {
-		System.out.println("Document " + doc.name() + " is being saved..."
+		doc.spellCheck();
 	}
 	
 }
